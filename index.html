@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hii, Key!</title>
+    <style>
+      #form {
+        display: none;
+      }
+    </style>
+    <script>
+      function welcomeMessage() {
+        alert("Welcome to my form page!");
+        document.getElementById("form").style.display = "block";
+      }
+    </script>
+  </head>
+  <body onload="welcomeMessage()">
+    <section id="welcome">
+      <h1>Welcome, Keyy.</h1>
+      <p id="welcome-p">
+        actually I'm dizzy because I keep thinking about you for a while hahaha,
+        so i made this shii just for you!
+      </p>
+      <button
+        onclick="document.getElementById('form').style.display = 'block'; document.getElementById('welcome').style.display = 'none';"
+      >
+        I`M READYY
+      </button>
+    </section>
+    <section id="form">
+      <form action="https://formspree.io/f/myyajawy" method="POST">
+        <fieldset class="caption1">
+          <legend>Let me know more bout you!</legend>
+          <br />
+          <label for="full-name"><span>nama</span> kamuu?</label>
+          <input
+            type="text"
+            id="full-name"
+            name="full-name"
+            value="....."
+          /><br /><br />
+          <label for="zodiac">how bout ur <span>zodiac?</span></label>
+          <input
+            type="text"
+            id="zodiac"
+            name="zodiac"
+            value="....."
+          /><br /><br />
+
+          <label for="fcolors">any <span>colors</span> u like?</label>
+          <input
+            type="text"
+            id="fcolors"
+            name="fcolors"
+            value="....."
+          /><br /><br />
+
+          <label for="self-d">how u see <span>urself?</span></label>
+          <input
+            type="text"
+            id="self-d"
+            name="self-d"
+            value="i do think u so pwetty:p"
+          /><br /><br />
+
+          <label for="tellme">any fun <span>stories?</span></label>
+          <input
+            type="text"
+            id="tellme"
+            name="tellme"
+            value="would glad to hear lots"
+          /><br /><br /><br />
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
