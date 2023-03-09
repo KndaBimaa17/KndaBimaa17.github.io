@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #07bbdb;
+  background-color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6;
@@ -17,7 +17,14 @@ h1 {
   font-weight: bold;
   margin-bottom: 30px;
   text-decoration: overline;
-  text-decoration-color: #ffff;
+  text-decoration-color: #07b0e4;
+  text-shadow: 10px 20px 20px;
+}
+
+body {
+  background-image: url(../img/immmmg.jpg);
+  background-repeat: no-repeat;
+  background-size: 420px;
 }
 
 h2 {
@@ -28,14 +35,20 @@ h2 {
 }
 
 p {
-  color: #ffff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-items: center;
 }
+
 #form .caption1 {
   color: #ffffff;
 }
+
 #form .caption1 span {
   color: goldenrod;
 }
+
 form {
   background-color: #07b0e4;
   border-radius: 20px;
@@ -63,6 +76,43 @@ textarea {
   margin: 0 auto;
 }
 
+input[type="button"] {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  cursor: help;
+  font-size: 12px;
+  padding: 7px 10px;
+  /* margin-left: 3.3rem; */
+}
+
+input[type="button"]:hover {
+  background-color: gold;
+  color: #fff;
+}
+
+#form .caption1 a {
+  background-color: #333;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-left: 0.5rem;
+  margin-right: 2.5rem;
+}
+
+#form .caption1 a:hover {
+  background-color: gold;
+}
+
+#form .caption1 a {
+  align-content: center;
+}
+
 input[type="submit"] {
   background-color: #333;
   border: none;
@@ -74,6 +124,20 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
+  background-color: gold;
+}
+
+.label a {
+  background-color: #333;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+#cta :hover {
   background-color: gold;
 }
 
@@ -91,8 +155,17 @@ input[type="submit"]:hover {
   text-align: center;
   /* text-align-last: left; */
 }
-#welcome p {
+#welcome-p {
   text-align: left;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.caption1 {
+  border-color: gold;
+  border-radius: 20px;
+}
+
+.caption1 legend {
+  text-align: center;
 }
