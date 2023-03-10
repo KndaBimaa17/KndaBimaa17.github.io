@@ -1,0 +1,61 @@
+/* Set the background color for the page */
+body {
+  background-color: #0274a1;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Set the max width and margin for the form section */
+#form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the caption legend */
+.caption1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Style the label */
+label {
+  display: block;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+/* Style the input field */
+input[type="text"] {
+  display: block;
+  width: 90%;
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  display: block;
+  width: 98%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f24b6a;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Change the background color of the submit button on hover */
+input[type="submit"]:hover {
+  background-color: #e62e4d;
+}

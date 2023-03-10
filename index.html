@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Hii, Key!</title>
+
     <style>
       #form {
         display: none;
       }
     </style>
+
     <script>
       function welcomeMessage() {
         alert("Welcome to my form page!");
@@ -22,11 +24,13 @@
     <section id="welcome">
       <h1>Welcome, Keyy.</h1>
       <p id="welcome-p">
-        actually I'm dizzy because I keep thinking about you for a while hahaha,
-        so i made this shii just for you!
+        actually I'm dizzy because I keep thinking about you for a while, so i
+        made this thing just for you!
       </p>
-      <!-- <img src="img/immmmg.jpg"> -->
+      <p id="zz2">ps: abaikan background plss, gataw maw pake bg apa soalnya</p>
+
       <button
+        id="zz1"
         onclick="document.getElementById('form').style.display = 'block'; document.getElementById('welcome').style.display = 'none';"
       >
         I`M READYY
@@ -44,6 +48,7 @@
             name="full-name"
             value="keyzia apaa namanya"
           /><br /><br />
+
           <label for="zodiac">how bout ur <span>zodiac?</span></label>
           <input
             type="text"
@@ -140,6 +145,14 @@
             id="fimpression4"
             name="fimpression4"
             value="apapunn tentang aku ntar dijawab"
+          /><br /><br />
+
+          <label for="days">how was your <span>day </span>lately?</label>
+          <input
+            type="text"
+            id="days"
+            name="days"
+            value="yang panjang si wajib.."
           /><br /><br /><br />
 
           <input class="submitb" type="submit" value="Submit" />

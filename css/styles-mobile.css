@@ -1,0 +1,35 @@
+@media screen and (max-width: 480px) {
+  /* CSS styles for mobile devices with width up to 480px */
+
+  /* Set the font size for the body to 16px */
+  body {
+    font-size: 16px;
+  }
+
+  /* Set the width of the form to 90% of the screen width */
+  #form {
+    width: 90%;
+  }
+
+  /* Adjust the font size and padding for the form elements */
+  .caption1 {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  /* Center align the form elements */
+  label,
+  input[type="text"],
+  h4,
+  input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* Reduce the font size for the h4 element */
+  h4 {
+    font-size: 0.9rem;
+    margin-bottom: 18px;
+  }
+}

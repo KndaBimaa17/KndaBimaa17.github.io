@@ -102,7 +102,7 @@ input[type="button"]:hover {
   padding: 10px 20px;
   text-decoration: none;
   margin-left: 0.5rem;
-  margin-right: 2.5rem;
+  margin-right: 1rem;
 }
 
 #form .caption1 a:hover {
@@ -141,6 +141,30 @@ input[type="submit"]:hover {
   background-color: gold;
 }
 
+#zz2 {
+  justify-content: left;
+  font-size: x-small;
+  color: #ffffff;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+#zz1 {
+  background-color: aqua;
+  border: none;
+  border-radius: 11px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+#zz1:hover {
+  background-color: #ffffff;
+  color: aqua;
+  transition: none;
+}
+
 .error-message {
   color: red;
   margin-bottom: 20px;
@@ -149,6 +173,22 @@ input[type="submit"]:hover {
 .success-message {
   color: green;
   margin-bottom: 20px;
+}
+
+.last-page-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #9b0c7c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 60px;
+  transition: background-color 0.3s ease;
+}
+
+.last-page-link:hover {
+  background-color: #ffffff;
+  color: #9b0c7c;
 }
 
 #welcome {
